@@ -6,14 +6,16 @@ const userData = [
     {
         id: 500,
         firstName: "Herman",
-        surName: "Seternes",
+        lastName: "Seternes",
+        userName: "hermahs",
         email: "hermahs@stud.ntnu.no",
         password: "YeetYeet"
     },
     {
         id: 501,
         firstName: "Johan",
-        surName: "Bjerkem",
+        lastName: "Bjerkem",
+        userName: "johabjer",
         email: "johabjer@stud.ntnu.no",
         password: "GreatestPasswordEver"
     }

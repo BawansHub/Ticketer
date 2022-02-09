@@ -12,7 +12,13 @@ yarn install
 ```
 docker-compose up -d
 ```
-3. start serveren
+3. Sette opp databasen
+```
+yarn prisma migrate dev
+yarn prisma db seed
+```
+
+4. start serveren
 ```
 yarn run dev
 ```
