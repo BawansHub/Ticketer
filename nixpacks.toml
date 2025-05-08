@@ -1,8 +1,0 @@
-[phases.setup]
-nixpkgs = ["nodejs", "npm"]
-
-[phases.build]
-run = "cd frontend && npm install && npm run build"
-
-[phases.start]
-run = "cd frontend && npm start"
